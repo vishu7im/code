@@ -6,6 +6,7 @@ int factorial(int num)
     {
         return 1;
     }
+
     else
     {
 
@@ -18,6 +19,7 @@ int main()
     int i;
     printf("enter your no want factorial \n");
     scanf("%d", &i);
+
     printf("your factorial of %d  is %d\n", i, factorial(i));
     return 0;
 }
