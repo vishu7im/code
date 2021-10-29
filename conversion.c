@@ -6,7 +6,7 @@ int main()
     float i, o;
     // cmd stand for input from user 
     // float i is the digit input user and o is the outup for calculation 
-start://this this is toogel to sift the programing on biggining
+start://this this is toogel to sift the program on beginning
     printf("\n\n\n\n\n\nThere you program convert various things\n\n\n");
     printf("enter '1' for  km to miles! \n\n ");
     printf("enter '2' for  inch to foot!\n\n ");
