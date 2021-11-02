@@ -31,7 +31,7 @@ int main()
 {
     int a, b;
 
-    printf("enter 1 for star pattern\n\n\n ");s
+    printf("enter 1 for star pattern\n\n\n ");
     printf("enter 0 for reverse  star pattern\n\n\n ");
     printf("enter 9 for quite the program star pattern\n\n\n ");
     scanf("%d", &a);
