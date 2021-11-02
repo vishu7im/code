@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// this is for show only
+
+
 int star(int row)
 {
     for (int i = 0; i < row; i++)
@@ -20,7 +23,7 @@ int rstar(int row)
         {
             printf("*");
         }
-        printf("\n\n");
+        printf("\n");
     }
 }
 
@@ -28,7 +31,7 @@ int main()
 {
     int a, b;
 
-    printf("enter 1 for star pattern\n\n\n ");
+    printf("enter 1 for star pattern\n\n\n ");s
     printf("enter 0 for reverse  star pattern\n\n\n ");
     printf("enter 9 for quite the program star pattern\n\n\n ");
     scanf("%d", &a);
