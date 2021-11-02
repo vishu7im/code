@@ -20,7 +20,7 @@ int rstar(int row)
         {
             printf("*");
         }
-        printf("\n");
+        printf("\n\n");
     }
 }
 
