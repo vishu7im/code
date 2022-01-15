@@ -5,7 +5,7 @@ int main()
   int a ;
   float b, c;
   printf("this is the 2 digits calculator \n\a\n");
-start:
+   start:
 
   //input first digit
   printf("enter first digit\n_");
@@ -45,16 +45,15 @@ goto start;
 goto start;
     break;
 
-  case 5:
+  case 9:
     //code for quit
-    printf("\n\n the program is quitting ");
-goto end;
+    printf("\n\n the program is quitting..... ");
+    break ;
 
   default:
     //code
-    printf("enter invalid statement check again");
+    printf("enter invalid statement check again  \n\n\n");
 goto start;
   }
-
-end:
+  
 }
