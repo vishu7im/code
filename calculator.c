@@ -2,45 +2,58 @@
 
 int main()
 {
-  int a, b, c;
+  float a, b, c;
   printf("this is the 2 digits calculator \n\a\n");
+start:
 
   //input first digit
   printf("enter first digit\n_");
-  scanf("%d", &b);
+  scanf("%f", &b);
 
   //input second digit
   printf("enter second digit\n_");
-  scanf("%d", &c);
+  scanf("%f", &c);
 
   //input for operation
-  printf("\n\nif you want \n add enter 1\n multiply enter 2\n subtract enter 3\n division enter 4\n");
-  scanf("%d", &a);
+  printf("\n\nfor add enter 1\n for multiply enter 2\n for subtract enter 3\n for division enter 4\n for quit enter 9\n");
+  scanf("%f", &a);
 
   switch (a)
   {
   case 1:
     //code for add
-    printf("\n\nthe sum is %d", b + c);
+    printf("\n\nthe sum is %f", b + c);
+goto start;
     break;
 
   case 2:
     //code for multiply
-    printf("\n\nthe multiply is %d", b * c);
+    printf("\n\nthe multiply is %f", b * c);
+goto start;
     break;
 
   case 3:
     //code for subtract
-    printf("\n\nthe subtract is %d", b - c);
+    printf("\n\nthe subtract is %f", b - c);
+goto start;
     break;
 
   case 4:
     //code for division
-    printf("\n\nthe division is %d", b / c);
+    printf("\n\nthe division is %f", b / c);
+goto start;
     break;
+
+  case 5:
+    //code for quit
+    printf("\n\n the program is quitting ");
+goto end;
 
   default:
     //code
     printf("enter invalid statement check again");
+goto start;
   }
+
+end:
 }
