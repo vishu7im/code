@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main()
-{
-  float a, b, c;
+{ 
+  int a ;
+  float b, c;
   printf("this is the 2 digits calculator \n\a\n");
 start:
 
@@ -16,7 +17,7 @@ start:
 
   //input for operation
   printf("\n\nfor add enter 1\n for multiply enter 2\n for subtract enter 3\n for division enter 4\n for quit enter 9\n");
-  scanf("%f", &a);
+  scanf("%d", &a);
 
   switch (a)
   {
